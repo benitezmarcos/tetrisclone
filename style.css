@@ -1,0 +1,45 @@
+body {
+    background: #202028;
+    color: rgb(247, 105, 105);
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+    background-image: url(bg.jpg);
+}
+
+canvas {
+    border: solid .2em #fff;
+    height: 90vh;
+}
+
+/* #score{
+    border: solid #fff .2em;
+} */
+
+#header{
+    border: solid .2em #fff;
+    font-family: 'Broadway';
+    background-color: #202028;
+}
+#title{
+    color:#22ABC7;
+    font-size: 6em;
+}
+#subtitle{
+    color: #F090C0;
+    font-size: 3.5rem;
+}
+
+p, #score{
+    color: #42d18c;
+    font-size: 3.5rem;
+}
+#tetris{
+    justify-content: center;
+    align-self: center;
+}
+
+@font-face {
+    font-family: Broadway;
+    src: url(broadwayd-webfont.woff);
+  }
